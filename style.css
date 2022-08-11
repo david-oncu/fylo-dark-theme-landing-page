@@ -273,7 +273,14 @@ button{
 }
 
 .testimonial-card-1::before{
+    content: '';
+    height: 2rem;
+    width: 2rem;
+    top: 1rem;
+    left: 3rem;
     background-image: url(/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
 }
 
@@ -300,10 +307,6 @@ button{
 
 .testimonial-name{
     line-height: initial;
-}
-
-.testimonial-role{
-    color: var(--clr-light-white);
 }
 
 
