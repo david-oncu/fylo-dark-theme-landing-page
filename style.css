@@ -1,0 +1,359 @@
+:root{
+
+--clr-intro-bg: hsl(217, 28%, 15%);
+--clr-main-bg: hsl(218, 28%, 13%);
+--clr-footer-bg: hsl(216, 53%, 9%);
+--clr-testimonial-bg: hsl(219, 30%, 18%);
+    
+--clr-cyan: hsl(176, 68%, 64%);
+--clr-blue: hsl(198, 60%, 50%);
+--clr-red: hsl(0, 100%, 63%);
+    
+--clr-white: hsl(0, 0%, 100%);
+    
+    
+font-size: 14px;
+
+
+--ff-text: 'Open Sans', sans-serif;
+--ff-accent: 'Raleway', sans-serif;
+
+--fw-400: 400;
+--fw-700: 700;
+    
+
+}
+
+/* null  */
+
+*,
+*::before,
+*::after{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html{
+    background-color: var(--clr-main-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button{
+    font-family: var(--ff-accent);
+    color: var(--clr-white);
+    line-height: 2.8rem;
+}
+
+input::placeholder{
+    font-family: var(--ff-text);
+}
+
+p{
+    font-family: var(--ff-text);
+    color: var(--clr-white);
+}
+
+
+a{
+    text-decoration: none;
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-700);
+    color: var(--clr-white);
+}
+
+li{
+    list-style: none;
+}
+
+.image{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+
+/* ------------------------mobile ------------------------ */
+
+
+
+/* header start  */
+
+.header{
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header img{
+    width: 50%;
+}
+
+.header nav{
+    display: flex;
+}
+
+.header nav ul{
+    gap: 1.5rem;
+}
+
+.header nav ul a{
+    font-weight: var(--fw-400);
+}
+
+
+/* header end  */
+
+
+
+
+
+/* hero start  */
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+
+    padding: 4rem 2rem;
+
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+.hero-text{
+    padding-inline: 3.5rem;
+}
+
+.hero-btn{
+    width: fit-content;
+    background-image: linear-gradient(30deg, var(--clr-cyan), var(--clr-blue));
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+}
+
+
+/* hero bottom  start */
+
+.hero-bottom-section{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.hero-bottom-section img{
+    width: 15%;
+}
+
+.hero-bottom-text{
+    padding-inline: 2rem;
+}
+
+.hero-bottom-row-1,
+.hero-bottom-row-2{
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-bottom-row-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* hero bottom end  */
+
+
+/* hero end  */
+
+
+
+
+
+
+/* middle start  */
+
+.middle-section{
+    padding: 6rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.middle-section-col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.middle-section-cta{
+    width: fit-content;
+    flex-direction: row;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    color: var(--clr-cyan);
+    font-weight: var(--fw-400);
+    position: relative;
+    padding-block: 0.5rem;
+}
+
+.middle-section-cta::before{
+    content: '';
+    position: absolute;
+    background-color: var(--clr-cyan);
+    height: 1px; 
+    width: 100%;
+    bottom: 0;
+    transition: width 300ms;
+}
+
+.middle-section-cta img{
+    transition: transform 300ms;
+}
+
+.middle-section-cta:hover img{
+    transform: scale(150%);
+}
+
+.middle-section-cta:hover::before{
+    width: 0;
+    transition: width 300ms;
+}
+
+
+
+/* middle end  */
+
+
+
+
+
+
+
+/* testimonial start  */
+
+.testimonial-section{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial-card{
+    background-color: var(--clr-testimonial-bg);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    border-radius: 1rem;
+}
+
+.testimonial-split{
+    display: flex;
+    gap: 1rem;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.testimonial-about-split{
+    outline: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* testimonial end  */
+
+
+
+
+
+
+/* footer start  */
+
+/* footer end  */
+
+/* ------------------------mobile end------------------------  */
+
+
+
+
+
+
+
+
+
+/* -------------------------desktop ------------------------ */
+
+
+
+/* header start  */
+
+/* header end  */
+
+
+
+
+
+/* hero start  */
+
+
+/* hero bottom  start */
+/* hero bottom end  */
+
+
+/* hero end  */
+
+
+
+
+
+
+/* middle start  */
+
+/* middle end  */
+
+
+
+
+
+
+
+/* testimonial start  */
+
+/* testimonial end  */
+
+
+
+
+
+
+/* footer start  */
+
+/* footer end  */
+
+/* ------------------------desktop end------------------------  */
