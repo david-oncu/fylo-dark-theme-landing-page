@@ -11,6 +11,8 @@
     
 --clr-white: hsl(0, 0%, 100%);
 --clr-light-white: rgb(230, 230, 230);
+
+--clr-box-shadow-dark: rgba(0, 0, 0, 0.300);
     
     
 font-size: 14px;
@@ -314,10 +316,72 @@ button{
 
 
 
+/* pre-footer start  */
+
+.pre-footer{
+    padding-block: 5rem;
+    background-image: linear-gradient( var(--clr-main-bg) 50%, var(--clr-footer-bg) 50%);
+}
+
+.pre-footer-card{
+    background-color: var(--clr-intro-bg);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px var(--clr-box-shadow-dark);
+    margin-inline: 1.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+
+}
+
+.pre-footer-title{
+    font-size: 1.5rem;
+}
+
+.pre-footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pre-footer form input{
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    border: none;
+
+}
+
+.pre-footer form button{
+    cursor: pointer;
+    width: 100%;
+    padding: 0.3rem;
+    font-weight: var(--fw-700);
+    background-image: linear-gradient(30deg, var(--clr-cyan), var(--clr-blue));
+    border-radius: 5rem;
+    box-shadow: 5px 5px 20px -5px var(--clr-box-shadow-dark);
+}
+
+/* pre-footer end  */
+
 
 
 
 /* footer start  */
+
+.footer{
+    background-color: var(--clr-footer-bg);
+    padding: 3rem;
+}
+
+.footer a{
+    font-weight: var(--fw-400);
+}
+
+.footer i{
+    color: var(--clr-white);
+}
 
 /* footer end  */
 
