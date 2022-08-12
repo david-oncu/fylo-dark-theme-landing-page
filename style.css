@@ -498,13 +498,20 @@ button{
     left: 0;
 }
 
-
 .animated-button{
     transition: transform 200ms;
 }
 
 .animated-button:hover{
     transform: scale(105%);
+}
+
+.animated-logo{
+    transition: transform 200ms;
+}
+
+.animated-logo:hover{
+    transform: scale(110%);
 }
 
 
