@@ -100,6 +100,7 @@ button{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    background-color: var(--clr-intro-bg);
 }
 
 .header img{
@@ -130,6 +131,7 @@ button{
 .hero-section{
     display: flex;
     flex-direction: column;
+    background-color: var(--clr-intro-bg);
 
     padding: 4rem 2rem;
 
