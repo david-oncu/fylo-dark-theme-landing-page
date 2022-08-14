@@ -132,8 +132,10 @@ button{
     display: flex;
     flex-direction: column;
     background-color: var(--clr-intro-bg);
-
-    padding: 4rem 2rem;
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 
     align-items: center;
     text-align: center;
@@ -156,6 +158,7 @@ button{
 /* hero bottom  start */
 
 .hero-bottom-section{
+    margin-top: 6rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -520,6 +523,86 @@ button{
 /* animations  end */
 
 /* ------------------------mobile end------------------------  */
+
+
+
+
+
+
+
+
+
+/* -------------------------tablet start ------------------------ */
+
+
+/* header start  */
+
+/* header end  */
+
+
+
+
+
+/* hero start  */
+
+
+/* hero bottom  start */
+
+.hero-bottom-row-1,
+.hero-bottom-row-2{ 
+    flex-direction: row;
+}
+
+/* hero bottom end  */
+
+
+/* hero end  */
+
+
+
+
+
+
+/* middle start  */
+
+/* middle end  */
+
+
+
+
+
+
+
+/* testimonial start  */
+
+/* testimonial end  */
+
+
+
+
+
+
+/* footer start  */
+
+/* footer end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------tablet end ------------------------ */
+
 
 
 
