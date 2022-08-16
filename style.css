@@ -143,8 +143,12 @@ button{
 
 }
 
+.hero-title{
+    padding-inline: 1rem;
+}
+
 .hero-text{
-    padding-inline: 3.5rem;
+    padding-inline: 2rem;
 }
 
 .hero-btn{
@@ -152,6 +156,10 @@ button{
     background-image: linear-gradient(30deg, var(--clr-cyan), var(--clr-blue) 69%);
     padding: 1rem 5rem;
     border-radius: 5rem;
+}
+
+.hero-section img{
+    padding-inline: 2rem;
 }
 
 
@@ -169,8 +177,12 @@ button{
     width: 15%;
 }
 
+.hero-bottom-title{
+    line-height: 2rem;
+}
+
 .hero-bottom-text{
-    padding-inline: 2rem;
+    max-width: 95%;
 }
 
 .hero-bottom-row-1,
@@ -612,10 +624,11 @@ button{
     justify-content: space-between;
     padding: 2rem 4rem;
     background-color: var(--clr-intro-bg);
+
 }
 
 .header img{
-    width: 80%;
+    width: 75%;
 }
 
 
@@ -651,18 +664,20 @@ button{
 }
 
 .hero-section img{
-    width: 50%;
+    max-width: 50%;
 }
 
 .hero-title{
     font-size: 3rem;
-    padding: 2rem 10rem;
+    padding-block: 2rem;
+    max-width: 50rem;
     line-height: 4rem;
 }
 
 .hero-text{
-    padding-inline: 32%;
+    max-width: 35rem;
 }
+
 
 .hero-btn{
     width: fit-content;
@@ -686,8 +701,9 @@ button{
     width: 15%;
 }
 
+
 .hero-bottom-text{
-    padding-inline: 6rem;
+    max-width: 65%;
 }
 
 
