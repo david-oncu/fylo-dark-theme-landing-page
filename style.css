@@ -706,7 +706,7 @@ button{
 
 
 .hero-bottom-text{
-    max-width: 65%;
+    max-width: 80%;
 }
 
 
@@ -825,5 +825,9 @@ button{
 
     .testimonial-image{
         width: 20%;
+    }
+
+    .hero-bottom-text{
+        max-width: 60%;
     }
 }
