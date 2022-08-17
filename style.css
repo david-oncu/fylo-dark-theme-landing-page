@@ -739,6 +739,31 @@ button{
 
 /* middle start  */
 
+.middle-section{
+    flex-direction: row;
+    gap: 5%;
+    padding-inline: 10%;
+}
+
+.middle-section-title{
+    line-height: 3.5rem;
+    font-size: 3rem;
+}
+
+.middle-section-col-1{
+    min-width: 50%;
+    display: block;
+    align-self: center;
+}
+
+
+.middle-section-col-2{
+    justify-content: center;
+    min-width: 50%;
+    padding-right: 10%;
+    
+}
+
 /* middle end  */
 
 
