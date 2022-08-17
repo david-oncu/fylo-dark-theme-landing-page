@@ -805,7 +805,37 @@ button{
 /* testimonial end  */
 
 
+/* pre footer start  */
 
+.pre-footer{
+    display: grid;
+    place-items: center;
+}
+
+.pre-footer-card{
+    max-width: 60%;
+    padding-inline: 5%;
+    align-items: center;
+}
+
+.pre-footer-title{
+    font-size: 2.5rem;
+}
+
+.pre-footer-text{
+    max-width: 80%;
+}
+
+.pre-footer form{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.pre-footer form input{
+}
+
+/* pre footer end  */
 
 
 
