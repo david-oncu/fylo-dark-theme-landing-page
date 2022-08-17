@@ -308,7 +308,7 @@ button{
 }
 
 
-.testimonial-split{
+.testimonial-card-col-2{
     display: flex;
     gap: 1rem;
 }
@@ -589,6 +589,8 @@ button{
 
 /* testimonial start  */
 
+
+
 /* testimonial end  */
 
 
@@ -773,6 +775,29 @@ button{
 
 
 /* testimonial start  */
+
+.testimonial-section{
+    flex-direction: row;
+    margin-inline: 5%;
+}
+
+
+
+.testimonial-card-1::before{
+    width: 4rem;
+    height: 4rem;
+    z-index: -1;
+    top: 0;
+    left: 2rem;
+}
+
+.testimonial-card-col-2{
+    flex-direction: row;
+}
+
+.testimonial-image{
+    width: 20%;
+}
 
 /* testimonial end  */
 
