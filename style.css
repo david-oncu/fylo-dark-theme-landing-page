@@ -450,8 +450,11 @@ button{
 .footer-social > * {
     position: relative;
     display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
     aspect-ratio: 1;
     justify-content: center;
+    align-items: center;
     padding: 0.5rem;
     border: 1px solid var(--clr-white);
     border-radius: 50%;
@@ -841,8 +844,9 @@ button{
 
 .footer{
     flex-direction: row;
-    padding: 3rem 10%;
-    gap: 4 rem;
+    padding: 3rem 10% 6rem 10%;
+    gap: 4rem;
+    flex-basis: auto;
 }
 
 .footer img{
@@ -850,15 +854,10 @@ button{
 }
 
 .footer-col-1{
-    flex: 3;
+    flex-basis: 40%;
 }
 
-.footer-col-2,
-.footer-col-3,
-.footer-col-4,
-.footer-social{
-    flex: 1;
-}
+
 
 
 
