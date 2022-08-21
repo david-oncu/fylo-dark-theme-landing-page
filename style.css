@@ -846,6 +846,17 @@ button{
 /* ------------------------desktop end------------------------  */
 
 
+
+
+
+
+
+
+
+
+
+/* ------------------------Widescreen start------------------------  */
+
 @media screen and (min-width: 70rem){
     .testimonial-card-col-2{
         flex-direction: row;
@@ -859,3 +870,5 @@ button{
         max-width: 60%;
     }
 }
+
+/* ------------------------Widescreen end------------------------  */
