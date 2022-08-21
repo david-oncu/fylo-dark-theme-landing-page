@@ -845,16 +845,22 @@ button{
 .footer{
     flex-direction: row;
     padding: 3rem 10% 6rem 10%;
-    gap: 4rem;
-    flex-basis: auto;
+    gap: 8%;
 }
 
 .footer img{
-    width: 30%;
+    width: 100px;
+}
+
+.footer-col-2,
+.footer-col-3,
+.footer-col-4,
+.footer-social{
+    flex: 1;
 }
 
 .footer-col-1{
-    flex-basis: 40%;
+    flex: 20%;
 }
 
 
